@@ -1,6 +1,6 @@
 #!/bin/bash
 # Declaring Array
-services=("nginx.service" "cron.service" "systemd-timesyncd.service")
+services=("nginx.service" "cron.service" "sql.service")
 # Loop
 for service in "${services[@]}"; do
 # Check the service status
